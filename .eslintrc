@@ -1,0 +1,36 @@
+{
+  "root": true,
+  "globals": {
+    "fetch": false
+  },
+  "extends": ["@react-native-community"],
+  "plugins": ["react"],
+  "rules": {
+    "no-use-before-define": "off",
+    "comma-dangle": "off",
+    // React
+    "react/jsx-filename-extension": "off",
+    "react/prop-types": "off",
+    // imports
+    "import/prefer-default-export": 0
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {
+        "alias": {
+          "root": "./",
+          "app": "./src/app/",
+          "assets": "./src/assets/",
+          "store": "./src/store/",
+          "routes": "./src/app/Routes/",
+          "screens": "./src/screens/",
+          "components": "./src/components/",
+          "shared-components": "./src/shared-components/"
+        }
+      }
+    },
+    "node": {
+      "paths": ["src"]
+    }
+  }
+}
