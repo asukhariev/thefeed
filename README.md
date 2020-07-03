@@ -9,3 +9,7 @@ IOS:
 5. pod install
 6. cd ..
 7. react-native run-ios || npx react-native run-ios
+
+ANDROID
+
+Install APK bundle from folder 'apk' in root directory of the project
