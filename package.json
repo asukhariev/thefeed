@@ -17,7 +17,7 @@
     "babel-plugin-module-resolver": "4.0.0",
     "react": "16.11.0",
     "react-native": "0.62.2",
-    "react-native-fast-image": "^8.1.5",
+    "react-native-fast-image": "^8.3.0",
     "react-native-gesture-handler": "1.6.1",
     "react-native-reanimated": "1.9.0",
     "react-native-restart": "0.0.17",
